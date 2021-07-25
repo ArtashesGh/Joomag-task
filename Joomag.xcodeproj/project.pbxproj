@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		339E10A6D4BD086219B82E0E /* Pods_Joomag.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54722ED66589499D1B119898 /* Pods_Joomag.framework */; };
 		46D316D8266EC493007E0EE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D316D7266EC493007E0EE4 /* AppDelegate.swift */; };
 		46D316DA266EC493007E0EE4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D316D9266EC493007E0EE4 /* SceneDelegate.swift */; };
 		46D316DC266EC493007E0EE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D316DB266EC493007E0EE4 /* ViewController.swift */; };
@@ -14,6 +15,15 @@
 		46D316E2266EC493007E0EE4 /* Joomag.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 46D316E0266EC493007E0EE4 /* Joomag.xcdatamodeld */; };
 		46D316E4266EC496007E0EE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D316E3266EC496007E0EE4 /* Assets.xcassets */; };
 		46D316E7266EC496007E0EE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D316E5266EC496007E0EE4 /* LaunchScreen.storyboard */; };
+		46D316F5266ED2FE007E0EE4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D316F1266ED2FE007E0EE4 /* NetworkManager.swift */; };
+		46D316F7266ED2FE007E0EE4 /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D316F3266ED2FE007E0EE4 /* NetworkConstants.swift */; };
+		46D316FE266EE037007E0EE4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D316FD266EE037007E0EE4 /* Extensions.swift */; };
+		46D31703266EF53C007E0EE4 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D31702266EF53C007E0EE4 /* SearchViewController.swift */; };
+		46D31706266EF6A5007E0EE4 /* WeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D31704266EF6A5007E0EE4 /* WeatherTableViewCell.swift */; };
+		46D31707266EF6A5007E0EE4 /* WeatherTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46D31705266EF6A5007E0EE4 /* WeatherTableViewCell.xib */; };
+		46D3170A266EFA51007E0EE4 /* Worker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D31709266EFA51007E0EE4 /* Worker.swift */; };
+		46D3170F266F0A5C007E0EE4 /* NetworkAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D3170E266F0A5C007E0EE4 /* NetworkAPI.swift */; };
+		46D31711266F2093007E0EE4 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D31710266F2093007E0EE4 /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +36,18 @@
 		46D316E3266EC496007E0EE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46D316E6266EC496007E0EE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46D316E8266EC496007E0EE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46D316F1266ED2FE007E0EE4 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		46D316F3266ED2FE007E0EE4 /* NetworkConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
+		46D316FD266EE037007E0EE4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		46D31702266EF53C007E0EE4 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		46D31704266EF6A5007E0EE4 /* WeatherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewCell.swift; sourceTree = "<group>"; };
+		46D31705266EF6A5007E0EE4 /* WeatherTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherTableViewCell.xib; sourceTree = "<group>"; };
+		46D31709266EFA51007E0EE4 /* Worker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Worker.swift; sourceTree = "<group>"; };
+		46D3170E266F0A5C007E0EE4 /* NetworkAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkAPI.swift; sourceTree = "<group>"; };
+		46D31710266F2093007E0EE4 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		54722ED66589499D1B119898 /* Pods_Joomag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Joomag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E16AF8675E0BE0FB180C111 /* Pods-Joomag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Joomag.debug.xcconfig"; path = "Target Support Files/Pods-Joomag/Pods-Joomag.debug.xcconfig"; sourceTree = "<group>"; };
+		A94D32D17622EDAED6335545 /* Pods-Joomag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Joomag.release.xcconfig"; path = "Target Support Files/Pods-Joomag/Pods-Joomag.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +55,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				339E10A6D4BD086219B82E0E /* Pods_Joomag.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		452BDA8CDE681C186B38A660 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54722ED66589499D1B119898 /* Pods_Joomag.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		46D316CB266EC493007E0EE4 = {
 			isa = PBXGroup;
 			children = (
 				46D316D6266EC493007E0EE4 /* Joomag */,
 				46D316D5266EC493007E0EE4 /* Products */,
+				A025F6221AA652DFB3C94885 /* Pods */,
+				452BDA8CDE681C186B38A660 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,9 +91,14 @@
 		46D316D6266EC493007E0EE4 /* Joomag */ = {
 			isa = PBXGroup;
 			children = (
+				46D31712266F209C007E0EE4 /* Models */,
+				46D31708266EFA34007E0EE4 /* Workers */,
+				46D316FF266EE9AD007E0EE4 /* Views */,
+				46D316FC266EDFF0007E0EE4 /* Helpers */,
+				46D316F9266EDB6F007E0EE4 /* Cell */,
+				46D316F0266ED2FE007E0EE4 /* Network */,
 				46D316D7266EC493007E0EE4 /* AppDelegate.swift */,
 				46D316D9266EC493007E0EE4 /* SceneDelegate.swift */,
-				46D316DB266EC493007E0EE4 /* ViewController.swift */,
 				46D316DD266EC493007E0EE4 /* Main.storyboard */,
 				46D316E3266EC496007E0EE4 /* Assets.xcassets */,
 				46D316E5266EC496007E0EE4 /* LaunchScreen.storyboard */,
@@ -70,6 +108,67 @@
 			path = Joomag;
 			sourceTree = "<group>";
 		};
+		46D316F0266ED2FE007E0EE4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				46D3170E266F0A5C007E0EE4 /* NetworkAPI.swift */,
+				46D316F1266ED2FE007E0EE4 /* NetworkManager.swift */,
+				46D316F3266ED2FE007E0EE4 /* NetworkConstants.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		46D316F9266EDB6F007E0EE4 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				46D31704266EF6A5007E0EE4 /* WeatherTableViewCell.swift */,
+				46D31705266EF6A5007E0EE4 /* WeatherTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		46D316FC266EDFF0007E0EE4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				46D316FD266EE037007E0EE4 /* Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		46D316FF266EE9AD007E0EE4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				46D316DB266EC493007E0EE4 /* ViewController.swift */,
+				46D31702266EF53C007E0EE4 /* SearchViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		46D31708266EFA34007E0EE4 /* Workers */ = {
+			isa = PBXGroup;
+			children = (
+				46D31709266EFA51007E0EE4 /* Worker.swift */,
+			);
+			path = Workers;
+			sourceTree = "<group>";
+		};
+		46D31712266F209C007E0EE4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				46D31710266F2093007E0EE4 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A025F6221AA652DFB3C94885 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E16AF8675E0BE0FB180C111 /* Pods-Joomag.debug.xcconfig */,
+				A94D32D17622EDAED6335545 /* Pods-Joomag.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46D316EB266EC496007E0EE4 /* Build configuration list for PBXNativeTarget "Joomag" */;
 			buildPhases = (
+				6D8D7FC5DC194C443CE78AA5 /* [CP] Check Pods Manifest.lock */,
 				46D316D0266EC493007E0EE4 /* Sources */,
 				46D316D1266EC493007E0EE4 /* Frameworks */,
 				46D316D2266EC493007E0EE4 /* Resources */,
+				C556CF23F8DA549B396B403A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46D31707266EF6A5007E0EE4 /* WeatherTableViewCell.xib in Resources */,
 				46D316E7266EC496007E0EE4 /* LaunchScreen.storyboard in Resources */,
 				46D316E4266EC496007E0EE4 /* Assets.xcassets in Resources */,
 				46D316DF266EC493007E0EE4 /* Main.storyboard in Resources */,
@@ -135,13 +237,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6D8D7FC5DC194C443CE78AA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Joomag-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C556CF23F8DA549B396B403A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Joomag/Pods-Joomag-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Joomag/Pods-Joomag-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Joomag/Pods-Joomag-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		46D316D0266EC493007E0EE4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46D31706266EF6A5007E0EE4 /* WeatherTableViewCell.swift in Sources */,
+				46D3170A266EFA51007E0EE4 /* Worker.swift in Sources */,
+				46D316F7266ED2FE007E0EE4 /* NetworkConstants.swift in Sources */,
+				46D31711266F2093007E0EE4 /* Models.swift in Sources */,
+				46D3170F266F0A5C007E0EE4 /* NetworkAPI.swift in Sources */,
+				46D31703266EF53C007E0EE4 /* SearchViewController.swift in Sources */,
 				46D316E2266EC493007E0EE4 /* Joomag.xcdatamodeld in Sources */,
 				46D316DC266EC493007E0EE4 /* ViewController.swift in Sources */,
+				46D316F5266ED2FE007E0EE4 /* NetworkManager.swift in Sources */,
+				46D316FE266EE037007E0EE4 /* Extensions.swift in Sources */,
 				46D316D8266EC493007E0EE4 /* AppDelegate.swift in Sources */,
 				46D316DA266EC493007E0EE4 /* SceneDelegate.swift in Sources */,
 			);
@@ -287,12 +439,14 @@
 		};
 		46D316EC266EC496007E0EE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E16AF8675E0BE0FB180C111 /* Pods-Joomag.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZWV79Y9LE7;
 				INFOPLIST_FILE = Joomag/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,12 +460,14 @@
 		};
 		46D316ED266EC496007E0EE4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A94D32D17622EDAED6335545 /* Pods-Joomag.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZWV79Y9LE7;
 				INFOPLIST_FILE = Joomag/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

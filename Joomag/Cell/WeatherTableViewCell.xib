@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="WeatherTableViewCell" rowHeight="120" id="0Fm-M8-EQ8" customClass="WeatherTableViewCell" customModule="Joomag" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0Fm-M8-EQ8" id="4Rb-q3-Vzk">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9yL-tH-vkb">
+                        <rect key="frame" x="10" y="6" width="51.5" height="24"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mAu-6s-mog">
+                        <rect key="frame" x="60" y="50.5" width="39.5" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DjK-0L-ZbG">
+                        <rect key="frame" x="10" y="90" width="37.5" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Xvw-D8-dF2">
+                        <rect key="frame" x="12" y="40" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Xvw-D8-dF2" secondAttribute="height" multiplier="1:1" id="V1n-9X-fwr"/>
+                            <constraint firstAttribute="width" constant="40" id="YEN-iO-kiK"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="DjK-0L-ZbG" firstAttribute="top" secondItem="Xvw-D8-dF2" secondAttribute="bottom" constant="10" id="5FR-Aq-dsR"/>
+                    <constraint firstItem="mAu-6s-mog" firstAttribute="centerY" secondItem="Xvw-D8-dF2" secondAttribute="centerY" id="9hA-Fw-Dgh"/>
+                    <constraint firstItem="mAu-6s-mog" firstAttribute="leading" secondItem="Xvw-D8-dF2" secondAttribute="trailing" constant="8" symbolic="YES" id="DWF-QD-YJU"/>
+                    <constraint firstItem="Xvw-D8-dF2" firstAttribute="leading" secondItem="4Rb-q3-Vzk" secondAttribute="leading" constant="12" id="JIf-RE-dmQ"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="9yL-tH-vkb" secondAttribute="trailing" constant="10" id="Lxh-Oh-KGA"/>
+                    <constraint firstItem="9yL-tH-vkb" firstAttribute="leading" secondItem="4Rb-q3-Vzk" secondAttribute="leading" constant="10" id="Rm1-5G-GAA"/>
+                    <constraint firstItem="Xvw-D8-dF2" firstAttribute="top" secondItem="9yL-tH-vkb" secondAttribute="bottom" constant="10" id="Y97-zF-EeW"/>
+                    <constraint firstItem="Xvw-D8-dF2" firstAttribute="centerY" secondItem="4Rb-q3-Vzk" secondAttribute="centerY" id="eFr-tY-E9m"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="mAu-6s-mog" secondAttribute="trailing" constant="10" id="mbU-Jn-mD2"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="DjK-0L-ZbG" secondAttribute="trailing" constant="10" id="sOF-61-ILu"/>
+                    <constraint firstItem="DjK-0L-ZbG" firstAttribute="leading" secondItem="4Rb-q3-Vzk" secondAttribute="leading" constant="10" id="sS9-o4-bgU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cityNameAndTemperatureLabel" destination="9yL-tH-vkb" id="Uj2-wg-qLW"/>
+                <outlet property="weatherConditionImageView" destination="Xvw-D8-dF2" id="FFe-z5-iIE"/>
+                <outlet property="weatherConditionLabel" destination="mAu-6s-mog" id="3TG-D7-ZYU"/>
+                <outlet property="windSpeedLabel" destination="DjK-0L-ZbG" id="6xa-lY-uQd"/>
+            </connections>
+            <point key="canvasLocation" x="-91" y="-31"/>
+        </tableViewCell>
+    </objects>
+</document>
